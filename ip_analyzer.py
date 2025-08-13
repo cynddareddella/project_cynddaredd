@@ -5,7 +5,7 @@ from ipaddress import ip_network
 from collections import defaultdict
 
 
-ip_list = [" "] #через запятую
+ip_list = [" "] #через запятую указываем нужные IP адреса
 
 
 def group_ips_by_subnet(ips):
