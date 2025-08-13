@@ -1,0 +1,74 @@
+# Стандартный .gitignore для Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sitemaps/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Файлы базы данных и окружения
+ip_info.db
+*.db
+*.sqlite
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Файлы редактора/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Файлы кэша и профилирования
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Файлы зависимостей
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv-*/
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
